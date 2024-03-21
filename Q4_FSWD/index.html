@@ -1,0 +1,102 @@
+<!-- | Form Element   | Functionality                                      |
+|----------------|----------------------------------------------------|
+| `<input>`      | Allows user input (text, password, checkbox, etc.)  |
+| `<select>`     | Provides a dropdown list of options                 |
+| `<textarea>`   | Allows multi-line text input                        |
+| `<button>`     | Triggers an action or submits a form                |
+| `<label>`      | Associates a label with a form element              |
+| `<fieldset>`   | Groups related form elements                        |
+| `<legend>`     | Provides a caption for a `<fieldset>`               |
+| `<form>`       | Wraps form elements and handles form submission      | -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>210894 _ Q4 FSWD</title>
+</head>
+<body>
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Form Element</th>
+                <th>Functionality</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> input </td>
+                <td> Allows user input (text, password, checkbox, etc.)</td>
+            </tr>
+            <tr class="active-row">
+                <td>select</td>
+                <td>Provides a dropdown list of options  </td>
+            </tr>
+            <tr>
+                <td> textarea </td>
+                <td> Allows multi-line text input </td>
+            </tr>
+            <tr class="active-row">
+                <td>button</td>
+                <td>Triggers an action or submits a form   </td>
+            </tr>
+            <tr>
+                <td> label </td>
+                <td> Associates a label with a form element </td>
+            </tr>
+            <tr class="active-row">
+                <td>fieldset</td>
+                <td> Groups related form elements        </td>
+            </tr>
+            <tr>
+                <td> legends </td>
+                <td> provides caption for field set</td>
+            </tr>
+            <tr class="active-row">
+                <td>form</td>
+                <td>Wraps form elements and handles form submission     </td>
+            </tr>
+            <!-- and so on... -->
+        </tbody>
+    </table>
+    <style>
+        .styled-table {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        font-family: sans-serif;
+        min-width: 400px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .styled-table thead tr {
+        background-color: #009879;
+        color: #ffffff;
+        text-align: left;
+     }
+
+     .styled-table th,
+    .styled-table td {
+        padding: 12px 15px;
+    }
+
+    .styled-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .styled-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+
+    .styled-table tbody tr:last-of-type {
+        border-bottom: 2px solid #009879;
+    }
+
+    .styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+    </style>
+</body>
+</html>
